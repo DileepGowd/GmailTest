@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.gmail.tests.GmailSearch_Test">
+        <methods>
+          <include name="selectMail"/>
+          <include name="loadBrowser"/>
+          <include name="moveMail"/>
+          <include name="setUp"/>
+          <include name="begin"/>
+          <include name="searchMail"/>
+        </methods>
+      </class> <!-- com.gmail.tests.GmailSearch_Test -->
+      <class name="com.gmail.tests.GmailLoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.gmail.tests.GmailLoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

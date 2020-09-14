@@ -1,0 +1,5 @@
+com/gmail/pages/GmailPage.class
+com/gmail/tests/GmailLoginTest.class
+com/gmail/pages/AppTest.class
+com/gmail/pages/GmailLoginPage.class
+com/gmail/tests/GmailSearch_Test.class
